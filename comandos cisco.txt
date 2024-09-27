@@ -1,0 +1,16 @@
+0. Marcar la opcion de "siempre ver la puerta usada" en las "opciones>preferencias"
+1. Selecionar el Router.
+2. Dessligarlo y ponerlo una interface. Usamos el "HWIC-2T".
+3. Ligar los componentes con el cable de raio
+4. Usar el comando "enable" para hacer los comandos
+
+
+Comandos:
+
+show ip interface brief // ver las interfaces y la actividad
+configure ter 
+interf serial 0/3/0
+encapsulation hdlc
+ip address 192.168.13.1 255.255.255.0
+no shutdown
+clockrate 64000
