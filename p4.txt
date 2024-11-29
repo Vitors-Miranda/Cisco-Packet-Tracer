@@ -1,0 +1,13 @@
+UE -> equipo de usuario
+
+MME -> Entidad de Gestión de la Movilidad del equipo de usuario (UE).
+ 	- incluida la autenticación, garantizando la integridad
+
+SGW -> responsable del procesamiento del plano de usuario.
+	- enruta paquetes-> UE y la PDN
+
+PGW -> Puerta de enlace de red de datos de paquetes -> redes de datos en paquetes externas
+	- Optimiza la ruta de dato
+	- SGW enruta paquetes de datos entre el UE y el PDN-GW
+
+MME, SGW y PGW están interconectados a través de interfaces estandarizadas
